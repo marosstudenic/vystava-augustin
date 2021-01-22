@@ -25,7 +25,7 @@ var x = setInterval(function() {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    window.location.replace("http://127.0.0.1:5500/src/");
+    window.location.replace("../../index.html");
   }
 }, 1000);
 
