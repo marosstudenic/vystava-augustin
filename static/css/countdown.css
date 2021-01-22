@@ -1,19 +1,19 @@
 .symbols {
-  font-size: 5em;
+  font-size: 3em;
   color: #8c8c8c;
 }
 
 .numbers {
-  font-size: 9rem;
+  font-size: 6.8rem;
   color: #1a1a1d;
   font-family: "Raleway";
   font-variant-numeric: lining-nums;
 }
 .coskoro {
   color: #1a1a1d;
-  font-size: 2.5em;
-  letter-spacing: 0.2em;
-  word-spacing: 0.9em;
+  font-size: 2.3em;
+  letter-spacing: 0.15em;
+  word-spacing: 0.2em;
   
 }
 
@@ -69,6 +69,13 @@ h1 {
     font-size: 1.6em;
     letter-spacing: 0.15em;
     word-spacing: 0.2em;
+    
+  }
+  .coskoro-div {
+    margin-top: -0.5em;
+  }
+  .bigger {
+    font-size:1.3em;
   }
   
 }
@@ -99,6 +106,7 @@ h1 {
     font-size: 1.8em;
     letter-spacing: 0.15em;
     word-spacing: 0.2em;
+    margin-top:0.5em;
     
   }
   
