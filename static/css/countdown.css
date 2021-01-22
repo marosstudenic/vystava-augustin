@@ -25,10 +25,34 @@
   margin-bottom: 3em;
 }
 .timer {
-  margin-top: 30vh;
+  margin-top: 5vh;
 }
 
+h1 {
+  width:100%;
+  letter-spacing: 0.2em;
+}
+.augustinText {
+  font-size:1em;
+  background: -webkit-linear-gradient(0deg, #4e2c26,   #cb9b51,   #e7c96c,   #f6f1bd );
+  background-clip:text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.augustinText2 {
+  font-size:1em;
+  background: -webkit-linear-gradient(0deg,#f6f1bd,   #e7c96c,   #cb9b51,   #4e2c26  );
+  background-clip:text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.wrapper {
+  height:75%;
+}
 
+.headings p {
+  letter-spacing: 0.2em;
+}
 
 @media (max-width: 1200px) {
   .symbols {
@@ -46,21 +70,26 @@
     letter-spacing: 0.15em;
     word-spacing: 0.2em;
   }
-  .coskoro-div {
-    margin-top: 1.5em;
-  }
+  
 }
 
 @media (max-width: 576px) {
+  
+  .mobileHeading {
+    font-size:1.5em;
+  }
+  .wrapper {
+    height:90%;
+    }
   .timer {
-    margin-top: 15vh;
+    margin-top: 5vh;
   }
 
   .symbols {
-    font-size: 2.5em;
+    font-size: 2em;
   }
   .numbers {
-    font-size: 4em;
+    font-size: 3em;
   }
   span {
     line-height: 1.2em;
@@ -70,13 +99,10 @@
     font-size: 1.8em;
     letter-spacing: 0.15em;
     word-spacing: 0.2em;
-    position:fixed;
-    bottom:1.5em;
+    
   }
-  .coskoro-div {
-    margin-top: 6em;
-  }
-}
+  
+} 
 
 @media (max-width:340px){
   .span {
