@@ -1,3 +1,8 @@
+body {
+  min-height:98vh;
+  min-height: -webkit-fill-available;
+}
+
 .symbols {
   font-size: 3em;
   color: #8c8c8c;
@@ -83,7 +88,7 @@ h1 {
 @media (max-width: 576px) {
   
   .mobileHeading {
-    font-size:1.3em;
+    font-size:1.2em;
   }
   .wrapper {
     height:90%;
