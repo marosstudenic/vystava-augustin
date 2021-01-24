@@ -7,6 +7,9 @@ body {
     min-height: 98vh;
   }
 }
+.bigger {
+  font-size: 1.3em;
+}
 
 .symbols {
   font-size: 3em;
