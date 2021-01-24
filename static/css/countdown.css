@@ -14,7 +14,7 @@ body {
 }
 
 .numbers {
-  font-size: 6.8rem;
+  font-size: 6rem;
   color: #1a1a1d;
   font-family: "Raleway";
   font-variant-numeric: lining-nums;
@@ -31,7 +31,6 @@ body {
 }
 .social-countdown {
   margin-top: 4em;
-  margin-bottom: 3em;
 }
 .timer {
   margin-top: 5vh;
