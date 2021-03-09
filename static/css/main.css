@@ -117,8 +117,8 @@ iframe {
   top: 45vh;
   left: 50vw;
   transform: translate(-50%, -50%);
-  height: 300px;
-  width: 600px;
+  height: 400px;
+  width: 650px;
   border: 10px solid white;
   box-shadow: rgba(149, 157, 165, 0.6) 0px 8px 24px;
 }
