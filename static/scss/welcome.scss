@@ -2,11 +2,15 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+
+  &.fullscreen {
+    padding-top: 0;
+  }
 }
 
 .main-logo {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   object-fit: contain;
   object-position: center;
 }
@@ -21,14 +25,14 @@
 .navigation-to-side {
   cursor: pointer;
   height: 250px;
-  width: 20vw;
+  width: 18vw;
   img {
     width: 100%;
     height: 80%;
     object-fit: cover;
   }
   button {
-    padding: 0.5rem 0;
+    padding: 0.2rem 0;
     letter-spacing: 0.15rem;
     font: {
       weight: 500;
