@@ -547,7 +547,7 @@ h1 {
   }
   #welcome .main {
     height: 90vh;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     flex-direction: column;
     justify-content: space-between;
   }
@@ -573,7 +573,7 @@ h1 {
 }
 @media (max-width: 500px) {
   .mobileGallery {
-    max-width: 300px;
+    width: 95vw;
   }
 
   .coverContainer {

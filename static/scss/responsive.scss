@@ -110,7 +110,7 @@
     flex-direction: column;
     .main {
       height: 90vh;
-      margin-bottom: 50px;
+      margin-bottom: 80px;
       flex-direction: column;
       justify-content: space-between;
     }
@@ -138,7 +138,7 @@
 
 @media (max-width: 500px) {
   .mobileGallery {
-    max-width: 300px;
+    width: 95vw;
   }
   .coverContainer {
     min-height: 175px;
