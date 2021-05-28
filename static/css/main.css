@@ -38,10 +38,15 @@ html {
   padding-top: 80px;
   width: 100vw;
   height: 100%;
-  height: -webkit-fill-available;
+  min-height: -webkit-fill-available;
   overflow-x: hidden;
   position: relative;
   background-color: white;
+}
+@supports (-webkit-appearance: none) {
+  .os-android .fullscreen {
+    min-height: calc(100vh - 56px);
+  }
 }
 
 button {
@@ -551,7 +556,7 @@ h1 {
     height: 100px;
   }
   #welcome .main {
-    height: 85vh;
+    height: 70vh;
     flex-direction: column;
     justify-content: space-between;
   }
