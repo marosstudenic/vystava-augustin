@@ -1,0 +1,234 @@
+.headings-wrapper {
+  height: 70%;
+}
+
+@media (max-width: 1800px) {
+  .coverContainer {
+    min-height: 173px;
+  }
+}
+@media (max-width: 1400px) {
+  h1 {
+    font-size: 3em;
+  }
+  .coverContainer {
+    min-height: 146px;
+  }
+}
+@media (max-width: 1200px) {
+  .coverContainer {
+    min-height: 120px;
+  }
+}
+@media (max-width: 990px) {
+  .coverContainer {
+    min-height: 86px;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  .headings p {
+    font-size: 1.5em;
+  }
+  .headings-wrapper {
+    height: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .fullscreen {
+    padding-top: 60px;
+  }
+
+  .close-button {
+    display: none;
+  }
+
+  #invitation .invitationMiddle {
+    width: 90vw;
+    height: 30vh;
+  }
+  .headings {
+    min-height: 170px;
+  }
+  a {
+    font-size: 1.4em;
+  }
+  .mobileGallery {
+    max-width: 400px;
+  }
+  h1 {
+    font-size: 3em;
+  }
+  .headings {
+    margin-top: 1em;
+  }
+  .headings p {
+    font-size: 1.3em;
+    line-height: 1.2em;
+    letter-spacing: 0.1em;
+  }
+
+  .logoCele {
+    height: 15px;
+  }
+  .coverContainer {
+    min-height: 231px;
+  }
+
+  .coverContainerSmall {
+    min-height: 112px;
+  }
+  .odkaz {
+    font-size: 1.3em;
+    background-color: #1a1a1d;
+    color: white;
+    letter-spacing: 0.2em;
+  }
+
+  .icons {
+    vertical-align: top;
+    height: 30px;
+    width: auto;
+  }
+  .logoCele {
+    height: 14px;
+    width: auto;
+  }
+  .headings-wrapper {
+    height: 40%;
+  }
+  .odkazy {
+    width: 100%;
+  }
+
+  #welcome {
+    .main-logo {
+      width: 100px;
+      height: 100px;
+    }
+    flex-direction: column;
+    .main {
+      height: 90vh;
+      margin-bottom: 50px;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .navigation-to-side {
+      display: flex;
+      flex-direction: column;
+      width: 60vw;
+      height: 25vh;
+    }
+  }
+}
+@media (max-width: 576px) {
+  .imgLeft {
+    background-image: url("../../assets/covers/videoMobilVlavoDole.png");
+  }
+
+  .imgCenter {
+    background-image: url("../../assets/covers/videoMobilHore1.png");
+  }
+  .imgRight {
+    background-image: url("../../assets/covers/videoMobilVpravoDole.png");
+  }
+}
+
+@media (max-width: 500px) {
+  .mobileGallery {
+    max-width: 300px;
+  }
+  .coverContainer {
+    min-height: 175px;
+  }
+
+  .coverContainerSmall {
+    min-height: 81px;
+  }
+  .headings-wrapper {
+    height: 65%;
+  }
+
+  .headings-wrapper.kniznica {
+    height: 20%;
+  }
+}
+
+@media (max-width: 420px) {
+  .mobileGallery {
+    max-width: 300px;
+  }
+  .headings p {
+    font-size: 1.3em;
+    line-height: 1.2em;
+    letter-spacing: 0.1em;
+  }
+
+  .coverContainer {
+    min-height: 177px;
+  }
+
+  .coverContainerSmall {
+    min-height: 75px;
+  }
+  .odkaz {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 330px) {
+  h1 {
+    font-size: 3em;
+  }
+  .headings {
+    margin-top: 1em;
+  }
+  .headings p {
+    font-size: 1.2em;
+    line-height: 1.2em;
+    letter-spacing: 0.1em;
+  }
+
+  .logoCele {
+    height: 15px;
+  }
+  .coverContainer {
+    min-height: 170px;
+  }
+
+  .coverContainerSmall {
+    min-height: 80px;
+  }
+  .odkaz {
+    font-size: 1.2em;
+  }
+  .icons {
+    vertical-align: top;
+    height: 30px;
+    width: auto;
+  }
+  .logoCele {
+    height: 14px;
+    width: auto;
+  }
+}
+
+@media (min-height: 700px) and (max-width: 800px) {
+  .odkaz {
+    font-size: 1.3em;
+  }
+  .headings p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    letter-spacing: 0.1em;
+  }
+  .headings-wrapper {
+    height: 60%;
+  }
+
+  .headings-wrapper.kniznica {
+    height: 40%;
+  }
+}

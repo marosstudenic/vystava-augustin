@@ -1,0 +1,65 @@
+@import "normalize";
+@import "vystava";
+@import "invitation";
+@import "texty";
+@import "videa";
+
+@import "welcome";
+@import "countdown";
+@import "responsive";
+@import "close-button";
+
+.icons {
+  height: 28px;
+  width: auto;
+}
+
+section {
+  height: 90vh;
+}
+
+.hide {
+  display: none;
+}
+.logoCele {
+  height: 17px;
+  width: auto;
+}
+
+.black-bg {
+  background-color: #1a1a1d;
+}
+
+.black-bg a {
+  color: white;
+}
+
+.odkazy {
+  width: 50%;
+}
+
+// .kniznica {
+//   height: 40vh;
+// }
+
+#left,
+#right {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: transform 0.8s ease-in-out;
+  z-index: 10;
+}
+
+#left {
+  transform: translateX(-100%);
+}
+
+#right {
+  transform: translateX(100%);
+}
+
+#left.active,
+#right.active {
+  transform: translateX(0);
+}

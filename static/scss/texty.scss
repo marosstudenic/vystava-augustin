@@ -1,0 +1,48 @@
+/* texty */
+h1 {
+  color: #1a1a1d;
+  letter-spacing: 0.3em;
+  font-size: 4em;
+}
+
+header {
+  height: 5vh;
+  width: 95vw;
+}
+
+.headings p {
+  color: #8c8c8c;
+  line-height: 1.2em;
+  letter-spacing: 0.2em;
+  font-size: 1.6em;
+
+  &.bigger-line-height {
+    line-height: 1.8em;
+  }
+}
+.odkaz {
+  background-color: black;
+  text-decoration: none;
+  font-size: 1.3em;
+  color: white;
+  letter-spacing: 0.2em;
+  width: 100%;
+}
+
+.augustin-name {
+  font-size: 2.9rem;
+  font-weight: 400;
+
+  .bigger-first-letter {
+    font-size: 145%;
+    font-weight: 400;
+  }
+}
+
+.subtext {
+  margin-top: 2rem;
+  color: #8c8c8c;
+  font-size: 2rem;
+  letter-spacing: 0.25rem;
+  text-align: center;
+}

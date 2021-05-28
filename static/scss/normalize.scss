@@ -1,0 +1,51 @@
+img {
+  width: 100%;
+  height: auto;
+}
+a {
+  color: white;
+}
+
+*,
+a {
+  text-decoration: none;
+}
+
+a {
+  letter-spacing: 0.2em;
+  font-size: 1.8em;
+}
+
+a:hover {
+  background: -webkit-linear-gradient(0deg, #4e2c26, #cb9b51, #e7c96c, #f6f1bd);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body,
+html {
+  width: 100vw;
+  height: 100vh;
+  height: -webkit-fill-available;
+  font-family: "Raleway", sans-serif;
+  overflow-x: hidden;
+  font-weight: 300;
+}
+
+.fullscreen {
+  padding-top: 80px;
+  width: 100vw;
+  height: 100vh;
+  height: -webkit-fill-available;
+  overflow-x: hidden;
+  position: relative;
+  background-color: white;
+}
+
+button {
+  border: none;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
