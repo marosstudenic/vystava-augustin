@@ -108,9 +108,11 @@
       height: 100px;
     }
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+
     .main {
+      margin-top: 56px;
       height: 70vh;
       flex-direction: column;
       justify-content: space-between;
