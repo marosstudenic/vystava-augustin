@@ -30,6 +30,11 @@ html {
   font-family: "Raleway", sans-serif;
   overflow-x: hidden;
   font-weight: 300;
+  @supports (-webkit-appearance: none) {
+    .os-android & {
+      min-height: calc(100vh - 56px);
+    }
+  }
 }
 
 .fullscreen {
